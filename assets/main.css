@@ -9,6 +9,11 @@
 
 a {
     text-decoration: none;
+    color: lightgrey;
+    transition: .6s;
+}
+a:hover {
+    color: white;
 }
 
 body {
@@ -67,6 +72,12 @@ a:hover h5 {
 
 .dice-holder img {
     transition: .6s;
+}
+
+.dragon-slayer-link {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
 }
 
 .discord-logo {
