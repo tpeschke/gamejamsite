@@ -23,6 +23,11 @@ app.get('/assets/:file', (req, res) => {
     res.sendFile(path.join(__dirname + '/assets/' + req.params.file))
 })
 
+app.get('/webpage/:file', (req, res) => {
+    res.sendFile(path.join(__dirname + '/webpage/' + req.params.file))
+})
+
+
 app.get('/*', (req, res) => {
     res.sendFile(path.join(__dirname + '/webpage/index.html'))
 })
